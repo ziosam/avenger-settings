@@ -127,3 +127,4 @@ AllowSellPositions=true
 MinutesBetweenOrders=20
 MinsBetweenLastOpsAndGridOrder=15
 TicksToSkip=0
+AvoidOpenIfPendingOrders=true
