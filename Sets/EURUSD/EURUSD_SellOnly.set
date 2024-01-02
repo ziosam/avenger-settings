@@ -81,7 +81,6 @@ SymbolDecimals=5
 ddr=--- DRAWDOWN REDUCTION Settings ---
 DdrEnabled=true
 DdrStartFromPosition=3
-DdrLossRecoveryPerc=50.0
 UseMultipleOrders=true
 MaxDDROrdersCount=3
 DisableIfCloseToProfit=true
