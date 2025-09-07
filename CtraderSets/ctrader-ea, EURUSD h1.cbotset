@@ -55,7 +55,7 @@
     "DdrMinDistanceFromProfit": 40.0,
     "OpenPendingOrdersWhenClosingDdr": false,
     "DdrStepsType": 0,
-    "DdrStepsCsv": "3,7,10,15",
+    "DdrStepsCsv": "3,7,12,20",
     "DdrPercCsv": "30,40,60,80"
   }
 }
