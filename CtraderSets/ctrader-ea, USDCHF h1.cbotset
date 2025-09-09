@@ -1,5 +1,8 @@
 ﻿{
-  "Chart": { "Symbol": "USDCHF", "Period": "h1" },
+  "Chart": {
+    "Symbol": "USDCHF",
+    "Period": "h1"
+  },
   "Parameters": {
     "MovingAverageEnabled": true,
     "RsiEnabled": false,
@@ -23,6 +26,7 @@
     "DefensivePositionsPercentage": 60,
     "AggressivePositionsPercentage": 40,
     "MinPipsDistanceBetweenPositions": 200,
+    "MaxHedgingPositions": 20,
     "DebugIdentifier": "ServerDemoAccount",
     "MaxSpread": 100.0,
     "TradingDirectionsAllowed": 1,
@@ -44,6 +48,7 @@
     "GridStepSizeIncreasePositionsCount": 0,
     "GridStepSizeIncreaseValue": 0,
     "GridStepSizeMinIncrease": 0,
+    "GridMaxPositionsCount": 20,
     "DdrEnabled": true,
     "DdrStartFromPosition": 3,
     "UseBothDirectionOrders": true,
