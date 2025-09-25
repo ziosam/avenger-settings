@@ -1,5 +1,8 @@
 ﻿{
-  "Chart": { "Symbol": "EURUSD", "Period": "h1" },
+  "Chart": {
+    "Symbol": "EURUSD",
+    "Period": "h1"
+  },
   "Parameters": {
     "MovingAverageEnabled": true,
     "RsiEnabled": true,
@@ -18,10 +21,11 @@
     "AdxPeriod": 14,
     "AdxThreshold": 35.0,
     "HedgingEnabled": true,
-    "OpenHedgingFromQuantity": 0.10,
+    "OpenHedgingFromQuantity": 0.1,
     "DefensivePositionsPercentage": 80,
     "AggressivePositionsPercentage": 20,
-    "MinPipsDistanceBetweenPositions": 300,
+    "MinPointsDistanceBetweenPositions": 200,
+    "MaxPointsDistanceBetweenPositions": 400,
     "MaxHedgingPositions": 12,
     "CoverOppositePositionPercentage": 55,
     "MaximumPriceRangeInPoints": 1500,
