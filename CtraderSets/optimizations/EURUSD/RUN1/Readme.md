@@ -31,10 +31,13 @@ Changed the hedging, even on BOT code side, in order to have the starting of the
 ### Main settings
 - start from 0.05 opposite lots
 - start also if opposite take profit is more than 1500 points away from current price
-- cover 80% of the opposite positions
+- cover 100% of the opposite positions
 - spread opposite positions across max 1200 points price range
 - add a max of 20 hedging positions (never seen hedging limited by this, to check)
+- min distance between hedging position: 200 points
+- max distance between hedging positions: 400 points
 
 ### Code changes
 - sync all the logic to define if hedging is enabled in a single point
 - added the hedging enable also if the take profit is too fara away
+- added max distance between hedging positions
