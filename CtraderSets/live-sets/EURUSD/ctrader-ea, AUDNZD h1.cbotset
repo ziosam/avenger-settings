@@ -1,6 +1,6 @@
 ﻿{
   "Chart": {
-    "Symbol": "EURUSD",
+    "Symbol": "AUDNZD",
     "Period": "h1"
   },
   "Parameters": {
@@ -24,7 +24,7 @@
     "OpenHedgingFromQuantity": 0.05,
     "DefensivePositionsPercentage": 60,
     "AggressivePositionsPercentage": 40,
-    "MinPointsDistanceBetweenPositions": 250,
+    "MinPointsDistanceBetweenPositions": 180,
     "MaxPointsDistanceBetweenPositions": 400,
     "MaxHedgingPositions": 20,
     "CoverOppositePositionPercentage": 40,
@@ -45,9 +45,9 @@
     "LotSizeIncreasePositionsCount": 1,
     "LotSizeIncreaseValue": 0.01,
     "LotSizeMinIncrease": 0.01,
-    "GridStepSizeStartingValue": 250,
-    "GridStepSizeMinValue": 250,
-    "GridStepSizeMaxValue": 250,
+    "GridStepSizeStartingValue": 180,
+    "GridStepSizeMinValue": 180,
+    "GridStepSizeMaxValue": 180,
     "GridStepSizeIncreasePositionsCount": 40,
     "GridStepSizeIncreaseValue": 0,
     "GridStepSizeMinIncrease": 0,
@@ -73,7 +73,7 @@
     "ClusterProfitTargetPips": 15.0,
     "PartialLockFraction": 0.0,
     "EnableTrailing": true,
-    "EquityTrailDropPerc": 0.25,
+    "EquityTrailDropPerc": 0.2,
     "EnableSafeProfitMode": false,
     "MaxGridAgeHours": 180.0,
     "MaxDistanceFromTpPips": 1500.0,

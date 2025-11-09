@@ -1,0 +1,1571 @@
+﻿{
+  "parameters": [
+    {
+      "name": "c02b25309272471b89a4de3831c473c5",
+      "value": "h1",
+      "parameterType": "TimeFrame",
+      "metadata": null,
+      "optimize": false,
+      "values": [
+        "m1",
+        "m2",
+        "m3",
+        "m4",
+        "m5",
+        "m6",
+        "m7",
+        "m8",
+        "m9",
+        "m10",
+        "m15",
+        "m20",
+        "m30",
+        "m45",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h6",
+        "h8",
+        "h12",
+        "D1",
+        "D2",
+        "D3",
+        "W1",
+        "Month1"
+      ]
+    },
+    {
+      "name": "MovingAverageEnabled",
+      "value": "True",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "MovingAverageEnabled",
+        "friendlyName": "MA trend filter enabled",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "RsiEnabled",
+      "value": "False",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": false,
+        "parameterType": "Boolean",
+        "propertyName": "RsiEnabled",
+        "friendlyName": "RSI trend filter enabled",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "MacdEnabled",
+      "value": "False",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": false,
+        "parameterType": "Boolean",
+        "propertyName": "MacdEnabled",
+        "friendlyName": "MACD trend filter enabled",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "AdxEnabled",
+      "value": "False",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": false,
+        "parameterType": "Boolean",
+        "propertyName": "AdxEnabled",
+        "friendlyName": "ADX trend filter enabled",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "BollingerEnabled",
+      "value": "False",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": false,
+        "parameterType": "Boolean",
+        "propertyName": "BollingerEnabled",
+        "friendlyName": "Bollinger filter trend enabled",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "IndicatorTimeframe",
+      "value": "h1",
+      "parameterType": "TimeFrame",
+      "metadata": {
+        "defaultValue": "h1",
+        "parameterType": "TimeFrame",
+        "propertyName": "IndicatorTimeframe",
+        "friendlyName": "Indicator Timeframe",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "values": [
+        "m1",
+        "m2",
+        "m3",
+        "m4",
+        "m5",
+        "m6",
+        "m7",
+        "m8",
+        "m9",
+        "m10",
+        "m15",
+        "m20",
+        "m30",
+        "m45",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h6",
+        "h8",
+        "h12",
+        "D1",
+        "D2",
+        "D3",
+        "W1",
+        "Month1"
+      ]
+    },
+    {
+      "name": "FastMaPeriod",
+      "value": "50",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 50,
+        "parameterType": "Integer",
+        "propertyName": "FastMaPeriod",
+        "friendlyName": "Fast MA Period",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "45",
+      "max": "55",
+      "step": "1"
+    },
+    {
+      "name": "SlowMaPeriod",
+      "value": "200",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 200,
+        "parameterType": "Integer",
+        "propertyName": "SlowMaPeriod",
+        "friendlyName": "Slow MA Period",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "195",
+      "max": "205",
+      "step": "1"
+    },
+    {
+      "name": "RsiPeriod",
+      "value": "14",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 14,
+        "parameterType": "Integer",
+        "propertyName": "RsiPeriod",
+        "friendlyName": "RSI Period",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "9",
+      "max": "19",
+      "step": "1"
+    },
+    {
+      "name": "RsiOverbought",
+      "value": "70",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 70,
+        "parameterType": "Integer",
+        "propertyName": "RsiOverbought",
+        "friendlyName": "RSI Overbought Level",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "65",
+      "max": "75",
+      "step": "1"
+    },
+    {
+      "name": "RsiOversold",
+      "value": "30",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 30,
+        "parameterType": "Integer",
+        "propertyName": "RsiOversold",
+        "friendlyName": "RSI Oversold Level",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "25",
+      "max": "35",
+      "step": "1"
+    },
+    {
+      "name": "MacdLongCycle",
+      "value": "26",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 26,
+        "parameterType": "Integer",
+        "propertyName": "MacdLongCycle",
+        "friendlyName": "MACD Long Cycle",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "21",
+      "max": "31",
+      "step": "1"
+    },
+    {
+      "name": "MacdShortCycle",
+      "value": "12",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 12,
+        "parameterType": "Integer",
+        "propertyName": "MacdShortCycle",
+        "friendlyName": "MACD Short Cycle",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "7",
+      "max": "17",
+      "step": "1"
+    },
+    {
+      "name": "MacdSignalPeriod",
+      "value": "9",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 9,
+        "parameterType": "Integer",
+        "propertyName": "MacdSignalPeriod",
+        "friendlyName": "MACD Signal Period",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "4",
+      "max": "14",
+      "step": "1"
+    },
+    {
+      "name": "AdxPeriod",
+      "value": "14",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 14,
+        "parameterType": "Integer",
+        "propertyName": "AdxPeriod",
+        "friendlyName": "ADX Period",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "9",
+      "max": "19",
+      "step": "1"
+    },
+    {
+      "name": "AdxThreshold",
+      "value": "25",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 25.0,
+        "parameterType": "Double",
+        "propertyName": "AdxThreshold",
+        "friendlyName": "ADX Minimum Threshold",
+        "groupName": "Indicators",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "24.5",
+      "max": "25.5",
+      "step": "0.1"
+    },
+    {
+      "name": "HedgingEnabled",
+      "value": "False",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": false,
+        "parameterType": "Boolean",
+        "propertyName": "HedgingEnabled",
+        "friendlyName": "Hedging Enabled",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "OpenHedgingFromQuantity",
+      "value": "0.05",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.05,
+        "parameterType": "Double",
+        "propertyName": "OpenHedgingFromQuantity",
+        "friendlyName": "Start from quantity (in lots)",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-0.45",
+      "max": "0.55",
+      "step": "0.1"
+    },
+    {
+      "name": "DefensivePositionsPercentage",
+      "value": "60",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 60,
+        "parameterType": "Integer",
+        "propertyName": "DefensivePositionsPercentage",
+        "friendlyName": "Defensive positions percentage",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "55",
+      "max": "65",
+      "step": "1"
+    },
+    {
+      "name": "AggressivePositionsPercentage",
+      "value": "40",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 40,
+        "parameterType": "Integer",
+        "propertyName": "AggressivePositionsPercentage",
+        "friendlyName": "Aggressive positions percentage",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "35",
+      "max": "45",
+      "step": "1"
+    },
+    {
+      "name": "MinPointsDistanceBetweenPositions",
+      "value": "200",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 200,
+        "parameterType": "Integer",
+        "propertyName": "MinPointsDistanceBetweenPositions",
+        "friendlyName": "Minimum Distance Between Positions in Points",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "195",
+      "max": "205",
+      "step": "1"
+    },
+    {
+      "name": "MaxPointsDistanceBetweenPositions",
+      "value": "400",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 400,
+        "parameterType": "Integer",
+        "propertyName": "MaxPointsDistanceBetweenPositions",
+        "friendlyName": "Maximum Distance Between Positions in Points",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "395",
+      "max": "405",
+      "step": "1"
+    },
+    {
+      "name": "MaxHedgingPositions",
+      "value": "20",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 20,
+        "parameterType": "Integer",
+        "propertyName": "MaxHedgingPositions",
+        "friendlyName": "Max number of hedging positions",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "15",
+      "max": "25",
+      "step": "1"
+    },
+    {
+      "name": "CoverOppositePositionPercentage",
+      "value": "40",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 40,
+        "parameterType": "Integer",
+        "propertyName": "CoverOppositePositionPercentage",
+        "friendlyName": "Cover opposite position percentage (lots to be covered)",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "35",
+      "max": "45",
+      "step": "1"
+    },
+    {
+      "name": "MaximumPriceRangeInPoints",
+      "value": "1500",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 1500,
+        "parameterType": "Integer",
+        "propertyName": "MaximumPriceRangeInPoints",
+        "friendlyName": "Maximum price range in points",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "1495",
+      "max": "1505",
+      "step": "1"
+    },
+    {
+      "name": "TakeProfitDistanceInPointsToEnableHedging",
+      "value": "1500",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 1500,
+        "parameterType": "Integer",
+        "propertyName": "TakeProfitDistanceInPointsToEnableHedging",
+        "friendlyName": "Enable hedging if take profit is away more that those points",
+        "groupName": "Hedging",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "1495",
+      "max": "1505",
+      "step": "1"
+    },
+    {
+      "name": "DebugIdentifier",
+      "value": "",
+      "parameterType": "String",
+      "metadata": {
+        "defaultValue": "",
+        "parameterType": "String",
+        "propertyName": "DebugIdentifier",
+        "friendlyName": "Debug Identifier",
+        "groupName": "Generic",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "MaxSpread",
+      "value": "100",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 100.0,
+        "parameterType": "Double",
+        "propertyName": "MaxSpread",
+        "friendlyName": "Max Spread",
+        "groupName": "Orders",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "99.5",
+      "max": "100.5",
+      "step": "0.1"
+    },
+    {
+      "name": "TradingDirectionsAllowed",
+      "value": "1",
+      "parameterType": "Enum",
+      "metadata": {
+        "enumValues": [
+          {
+            "value": 0,
+            "name": "None"
+          },
+          {
+            "value": 1,
+            "name": "All"
+          },
+          {
+            "value": 2,
+            "name": "BuyOnly"
+          },
+          {
+            "value": 3,
+            "name": "SellOnly"
+          }
+        ],
+        "defaultValue": 1,
+        "parameterType": "Enum",
+        "propertyName": "TradingDirectionsAllowed",
+        "friendlyName": "Trading Direction Allowed",
+        "groupName": "Orders",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "values": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "name": "TakeProfit",
+      "value": "2000",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 150.0,
+        "parameterType": "Double",
+        "propertyName": "TakeProfit",
+        "friendlyName": "Take Profit",
+        "groupName": "Orders",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "149.5",
+      "max": "150.5",
+      "step": "0.1"
+    },
+    {
+      "name": "MinutesBetweenOrders",
+      "value": "0",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 0,
+        "parameterType": "Integer",
+        "propertyName": "MinutesBetweenOrders",
+        "friendlyName": "Minutes Between Orders",
+        "groupName": "Orders",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-5",
+      "max": "5",
+      "step": "1"
+    },
+    {
+      "name": "AvoidOpenIfPendingOrders",
+      "value": "True",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "AvoidOpenIfPendingOrders",
+        "friendlyName": "Do not open when pending orders",
+        "groupName": "Orders",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "MaxOrdersCount",
+      "value": "4000",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 20,
+        "parameterType": "Integer",
+        "propertyName": "MaxOrdersCount",
+        "friendlyName": "Max Orders Count",
+        "groupName": "Orders",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "15",
+      "max": "25",
+      "step": "1"
+    },
+    {
+      "name": "CountPositionsToOpenAsPendingOrders",
+      "value": "1",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 1,
+        "parameterType": "Integer",
+        "propertyName": "CountPositionsToOpenAsPendingOrders",
+        "friendlyName": "Pending orders to open",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-4",
+      "max": "6",
+      "step": "1"
+    },
+    {
+      "name": "TrendFilterEnabledOnGrid",
+      "value": "False",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "TrendFilterEnabledOnGrid",
+        "friendlyName": "Trend filter enabled",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "LotSizeStartingValue",
+      "value": "0.01",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.01,
+        "parameterType": "Double",
+        "propertyName": "LotSizeStartingValue",
+        "friendlyName": "Lot Size Starting Value",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-0.49",
+      "max": "0.51",
+      "step": "0.1"
+    },
+    {
+      "name": "LotSizeMinValue",
+      "value": "0.01",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.01,
+        "parameterType": "Double",
+        "propertyName": "LotSizeMinValue",
+        "friendlyName": "Lot Size Min Value",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-0.49",
+      "max": "0.51",
+      "step": "0.1"
+    },
+    {
+      "name": "LotSizeMaxValue",
+      "value": "1",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.1,
+        "parameterType": "Double",
+        "propertyName": "LotSizeMaxValue",
+        "friendlyName": "Lot Size Max Value",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-0.4",
+      "max": "0.6",
+      "step": "0.1"
+    },
+    {
+      "name": "LotSizeIncreasePositionsCount",
+      "value": "1",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 2,
+        "parameterType": "Integer",
+        "propertyName": "LotSizeIncreasePositionsCount",
+        "friendlyName": "Lot Size Increase Positions Count",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-3",
+      "max": "7",
+      "step": "1"
+    },
+    {
+      "name": "LotSizeIncreaseValue",
+      "value": "0.01",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.01,
+        "parameterType": "Double",
+        "propertyName": "LotSizeIncreaseValue",
+        "friendlyName": "Lot Size Increase Value",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-0.49",
+      "max": "0.51",
+      "step": "0.1"
+    },
+    {
+      "name": "LotSizeMinIncrease",
+      "value": "0.01",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.0,
+        "parameterType": "Double",
+        "propertyName": "LotSizeMinIncrease",
+        "friendlyName": "Lot Size Min Increase",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-0.5",
+      "max": "0.5",
+      "step": "0.1"
+    },
+    {
+      "name": "GridStepSizeStartingValue",
+      "value": "250",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 150,
+        "parameterType": "Integer",
+        "propertyName": "GridStepSizeStartingValue",
+        "friendlyName": "Grid Step Size Starting Value",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": true,
+      "min": "250",
+      "max": "600",
+      "step": "50"
+    },
+    {
+      "name": "GridStepSizeMinValue",
+      "value": "0",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 150,
+        "parameterType": "Integer",
+        "propertyName": "GridStepSizeMinValue",
+        "friendlyName": "Grid Step Size Min Value",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "145",
+      "max": "155",
+      "step": "1"
+    },
+    {
+      "name": "GridStepSizeMaxValue",
+      "value": "0",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 1000,
+        "parameterType": "Integer",
+        "propertyName": "GridStepSizeMaxValue",
+        "friendlyName": "Grid Step Size Max Value",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "995",
+      "max": "1005",
+      "step": "1"
+    },
+    {
+      "name": "GridStepSizeIncreasePositionsCount",
+      "value": "0",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 2,
+        "parameterType": "Integer",
+        "propertyName": "GridStepSizeIncreasePositionsCount",
+        "friendlyName": "Grid Step Size Increase Positions Count",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-3",
+      "max": "7",
+      "step": "1"
+    },
+    {
+      "name": "GridStepSizeIncreaseValue",
+      "value": "0",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 100,
+        "parameterType": "Integer",
+        "propertyName": "GridStepSizeIncreaseValue",
+        "friendlyName": "Grid Step Size Increase Value",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "95",
+      "max": "105",
+      "step": "1"
+    },
+    {
+      "name": "GridStepSizeMinIncrease",
+      "value": "0",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 0,
+        "parameterType": "Integer",
+        "propertyName": "GridStepSizeMinIncrease",
+        "friendlyName": "Grid Step Size Min Increase",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-5",
+      "max": "5",
+      "step": "1"
+    },
+    {
+      "name": "GridMaxPositionsCount",
+      "value": "0",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 20,
+        "parameterType": "Integer",
+        "propertyName": "GridMaxPositionsCount",
+        "friendlyName": "Grid max  positions count",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "15",
+      "max": "25",
+      "step": "1"
+    },
+    {
+      "name": "PercOfSmallestOppositePosition",
+      "value": "75",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 75,
+        "parameterType": "Integer",
+        "propertyName": "PercOfSmallestOppositePosition",
+        "friendlyName": "Percentage of smallest opposite position to cover with starting log",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": true,
+      "min": "50",
+      "max": "100",
+      "step": "25"
+    },
+    {
+      "name": "MaxInitialPositionLotSize",
+      "value": "0.05",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.05,
+        "parameterType": "Double",
+        "propertyName": "MaxInitialPositionLotSize",
+        "friendlyName": "Max Initial Position Lot Size",
+        "groupName": "Grid",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": true,
+      "min": "0.02",
+      "max": "0.1",
+      "step": "0.02"
+    },
+    {
+      "name": "DdrEnabled",
+      "value": "True",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "DdrEnabled",
+        "friendlyName": "Is enabled",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "DdrStartFromPosition",
+      "value": "3",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 3,
+        "parameterType": "Integer",
+        "propertyName": "DdrStartFromPosition",
+        "friendlyName": "Starting position",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-2",
+      "max": "8",
+      "step": "1"
+    },
+    {
+      "name": "UseBothDirectionOrders",
+      "value": "True",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "UseBothDirectionOrders",
+        "friendlyName": "Use both direction orders",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "MaxDdrOrderCount",
+      "value": "5",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 5,
+        "parameterType": "Integer",
+        "propertyName": "MaxDdrOrderCount",
+        "friendlyName": "Max DDR order count",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "0",
+      "max": "10",
+      "step": "1"
+    },
+    {
+      "name": "DisableIfCloseToTakeProfit",
+      "value": "True",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "DisableIfCloseToTakeProfit",
+        "friendlyName": "Disable if close to take profit",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "DdrMinDistanceFromProfit",
+      "value": "40",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 40.0,
+        "parameterType": "Double",
+        "propertyName": "DdrMinDistanceFromProfit",
+        "friendlyName": "Min distance from profit",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "39.5",
+      "max": "40.5",
+      "step": "0.1"
+    },
+    {
+      "name": "OpenPendingOrdersWhenClosingDdr",
+      "value": "True",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "OpenPendingOrdersWhenClosingDdr",
+        "friendlyName": "Open pending orders when closing DDR",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "DdrStepsType",
+      "value": "0",
+      "parameterType": "Enum",
+      "metadata": {
+        "enumValues": [
+          {
+            "value": 0,
+            "name": "PositionsCount"
+          },
+          {
+            "value": 1,
+            "name": "TotalLotsSize"
+          }
+        ],
+        "defaultValue": 0,
+        "parameterType": "Enum",
+        "propertyName": "DdrStepsType",
+        "friendlyName": "DDR Steps Type",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "DdrStepsCsv",
+      "value": "3,5,6,10",
+      "parameterType": "String",
+      "metadata": {
+        "defaultValue": "3,5,6,10",
+        "parameterType": "String",
+        "propertyName": "DdrStepsCsv",
+        "friendlyName": "DDR Steps CSV",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "DdrPercCsv",
+      "value": "30,50,70,90",
+      "parameterType": "String",
+      "metadata": {
+        "defaultValue": "30,50,70,90",
+        "parameterType": "String",
+        "propertyName": "DdrPercCsv",
+        "friendlyName": "DDR Perc CSV",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "MinTargetLotSizeForPartialClose",
+      "value": "0.03",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.03,
+        "parameterType": "Double",
+        "propertyName": "MinTargetLotSizeForPartialClose",
+        "friendlyName": "Min target lot size for partial close",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-0.47",
+      "max": "0.53",
+      "step": "0.1"
+    },
+    {
+      "name": "MinTotalLosingLotSizeForPartialClose",
+      "value": "0.1",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.1,
+        "parameterType": "Double",
+        "propertyName": "MinTotalLosingLotSizeForPartialClose",
+        "friendlyName": "Min total loosing lot size for partial close",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-0.4",
+      "max": "0.6",
+      "step": "0.1"
+    },
+    {
+      "name": "AllowCloseDifferentPairs",
+      "value": "False",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": false,
+        "parameterType": "Boolean",
+        "propertyName": "AllowCloseDifferentPairs",
+        "friendlyName": "Allow closing different pairs",
+        "groupName": "Drawdown reduction",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "ProfitTakerEnabled",
+      "value": "True",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "ProfitTakerEnabled",
+        "friendlyName": "Enable Profit Taker",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "ProfitTriggerMode",
+      "value": "1",
+      "parameterType": "Enum",
+      "metadata": {
+        "enumValues": [
+          {
+            "value": 0,
+            "name": "TakeProfitPercent"
+          },
+          {
+            "value": 1,
+            "name": "Pips"
+          }
+        ],
+        "defaultValue": 1,
+        "parameterType": "Enum",
+        "propertyName": "ProfitTriggerMode",
+        "friendlyName": "Profit Trigger Mode",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "TargetCompletionPerc",
+      "value": "0.7",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.7,
+        "parameterType": "Double",
+        "propertyName": "TargetCompletionPerc",
+        "friendlyName": "Target Completion Percentage",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "0.19999999999999996",
+      "max": "1.2",
+      "step": "0.1"
+    },
+    {
+      "name": "ClusterProfitTargetPips",
+      "value": "10",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 10.0,
+        "parameterType": "Double",
+        "propertyName": "ClusterProfitTargetPips",
+        "friendlyName": "Cluster Profit Target Pips",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": true,
+      "min": "10",
+      "max": "30",
+      "step": "10"
+    },
+    {
+      "name": "PartialLockFraction",
+      "value": "0.6",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.6,
+        "parameterType": "Double",
+        "propertyName": "PartialLockFraction",
+        "friendlyName": "Partial Profit Lot Fraction",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "0.09999999999999998",
+      "max": "1.1",
+      "step": "0.1"
+    },
+    {
+      "name": "EnableTrailing",
+      "value": "True",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "EnableTrailing",
+        "friendlyName": "Enable Trailing",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "EquityTrailDropPerc",
+      "value": "0.3",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.3,
+        "parameterType": "Double",
+        "propertyName": "EquityTrailDropPerc",
+        "friendlyName": "Equity Trailing Drop Perc",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": true,
+      "min": "0.1",
+      "max": "0.4",
+      "step": "0.1"
+    },
+    {
+      "name": "EnableSafeProfitMode",
+      "value": "False",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": true,
+        "parameterType": "Boolean",
+        "propertyName": "EnableSafeProfitMode",
+        "friendlyName": "Enable Safe Profit Mode",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "MaxGridAgeHours",
+      "value": "24",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 24.0,
+        "parameterType": "Double",
+        "propertyName": "MaxGridAgeHours",
+        "friendlyName": "Max Grid Age in Hours",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "23.5",
+      "max": "24.5",
+      "step": "0.1"
+    },
+    {
+      "name": "MaxDistanceFromTpPips",
+      "value": "400",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 400.0,
+        "parameterType": "Double",
+        "propertyName": "MaxDistanceFromTpPips",
+        "friendlyName": "Max Distance from TP in Pips",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "399.5",
+      "max": "400.5",
+      "step": "0.1"
+    },
+    {
+      "name": "MaxClusterLots",
+      "value": "0.1",
+      "parameterType": "Double",
+      "metadata": {
+        "minValue": -1.7976931348623157E+308,
+        "maxValue": 1.7976931348623157E+308,
+        "step": 0.1,
+        "defaultValue": 0.1,
+        "parameterType": "Double",
+        "propertyName": "MaxClusterLots",
+        "friendlyName": "Max Cluster Lots (grid size)",
+        "groupName": "Profit Taker",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "-0.4",
+      "max": "0.6",
+      "step": "0.1"
+    },
+    {
+      "name": "AutolotEnabled",
+      "value": "False",
+      "parameterType": "Boolean",
+      "metadata": {
+        "defaultValue": false,
+        "parameterType": "Boolean",
+        "propertyName": "AutolotEnabled",
+        "friendlyName": "Autolot enabled",
+        "groupName": "Autolot",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false
+    },
+    {
+      "name": "AutolotBalanceReference",
+      "value": "3000",
+      "parameterType": "Integer",
+      "metadata": {
+        "minValue": -2147483648,
+        "maxValue": 2147483647,
+        "step": 1,
+        "defaultValue": 3000,
+        "parameterType": "Integer",
+        "propertyName": "AutolotBalanceReference",
+        "friendlyName": "Autolot balance reference (for 1:1 lot)",
+        "groupName": "Autolot",
+        "isValueVisibleInTitle": true,
+        "description": ""
+      },
+      "optimize": false,
+      "min": "2995",
+      "max": "3005",
+      "step": "1"
+    }
+  ]
+}
