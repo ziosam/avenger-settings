@@ -95,7 +95,7 @@
     "SniperPruningEnabled": true,
     "MaxDaysForOldPosition": 30,
     "MaxDrawdownPercentOfVirtualEquity": 20.0,
-    "MonthlyProfitTargetPercent": 25.0,
+    "MonthlyProfitTargetPercent": 16.0,
     "DailyProfitTargetPercent": 1.0,
     "MinDailyPreservedProfitCurrency": 10.0
   }
