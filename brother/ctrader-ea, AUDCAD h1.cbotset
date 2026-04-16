@@ -92,10 +92,10 @@
     "MaxPiggyBankCapPercentage": 30.0,
     "TriggerDrawdownPercentage": 80.0,
     "MaxWeeklyPiggyUsed": 500.0,
-    "SniperPruningEnabled": false,
-    "MaxDaysForOldPosition": 30,
-    "MaxDrawdownPercentOfVirtualEquity": 8.0,
-    "MonthlyProfitTargetPercent": 16.0,
+    "SniperPruningEnabled": true,
+    "MaxDaysForOldPosition": 45,
+    "MaxDrawdownPercentOfVirtualEquity": 20.0,
+    "MonthlyProfitTargetPercent": 14.0,
     "DailyProfitTargetPercent": 1.0,
     "MinDailyPreservedProfitCurrency": 10.0
   }

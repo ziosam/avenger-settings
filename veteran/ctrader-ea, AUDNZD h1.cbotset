@@ -93,7 +93,7 @@
     "TriggerDrawdownPercentage": 80.0,
     "MaxWeeklyPiggyUsed": 500.0,
     "SniperPruningEnabled": true,
-    "MaxDaysForOldPosition": 45,
+    "MaxDaysForOldPosition": 60,
     "MaxDrawdownPercentOfVirtualEquity": 15.0,
     "MonthlyProfitTargetPercent": 16.0,
     "DailyProfitTargetPercent": 1.0,
