@@ -1,6 +1,6 @@
 ﻿{
   "Chart": {
-    "Symbol": "EURUSD",
+    "Symbol": "USDCAD",
     "Period": "h1"
   },
   "Parameters": {
@@ -18,7 +18,7 @@
     "AvoidOpenIfPendingOrders": true,
     "MaxOrdersCount": 20,
     "DynamicVirtualEquityEnabled": true,
-    "VeStepUpSafetyLockThreshold": 15.0,
+    "VeStepUpSafetyLockThreshold": 20.0,
     "EquityFactorForStartingLot": 500000.0,
     "EquityFactorForLotIncrease": 150000.0,
     "GridMaxPositionsCount": 0,
@@ -26,12 +26,12 @@
     "EquityFactorForOneLotGridCap": 1250.0,
     "GridPositionEquityCapForOneLot": 15000.0,
     "AtrGridStepEnabled": true,
-    "AtrMultiplier": 1.5,
+    "AtrMultiplier": 2.0,
     "AtrNegativeSwapMultiplier": 1.5,
     "AtrMinStepPips": 20,
     "AtrMaxStepPips": 150,
     "FirstPositionSizePercOfOppositeLots": 10,
-    "FirstPositionSizeCapMultiplier": 5,
+    "FirstPositionSizeCapMultiplier": 3,
     "ProfitTakerEnabled": true,
     "ClusterProfitTargetPipsFallback": 5.0,
     "EnableTrailing": true,
@@ -44,7 +44,7 @@
     "TriggerDrawdownPercentage": 80.0,
     "MaxWeeklyPiggyUsed": 500.0,
     "SniperPruningEnabled": true,
-    "MaxDaysForOldPosition": 45,
+    "MaxDaysForOldPosition": 30,
     "MaxDrawdownPercentOfVirtualEquity": 20.0,
     "MonthlyProfitTargetPercent": 5.0,
     "DailyProfitTargetPercent": 0.3,
