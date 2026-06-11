@@ -35,7 +35,7 @@
     "MinutesBetweenOrders": 0,
     "AvoidOpenIfPendingOrders": true,
     "MaxOrdersCount": 20,
-    "DynamicVirtualEquityEnabled": false,
+    "DynamicVirtualEquityEnabled": true,
     "VeStepUpSafetyLockThreshold": 15.0,
     "EquityFactorForStartingLot": 500000.0,
     "EquityFactorForLotIncrease": 150000.0,
@@ -94,7 +94,7 @@
     "MaxWeeklyPiggyUsed": 500.0,
     "SniperPruningEnabled": true,
     "MaxDaysForOldPosition": 120,
-    "MaxDrawdownPercentOfVirtualEquity": 20.0,
+    "MaxDrawdownPercentOfVirtualEquity": 30.0,
     "MonthlyProfitTargetPercent": 16.0,
     "DailyProfitTargetPercent": 2.0,
     "MinDailyPreservedProfitCurrency": 10.0
